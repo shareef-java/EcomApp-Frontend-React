@@ -1,0 +1,10 @@
+.bg-red{
+    background: linear-gradient(45deg 0 red,black);
+}
+.blink{
+    animation:blink 6s infinite;
+}
+@keyframes blink {
+    50%{opacity: 0;}
+    
+}
